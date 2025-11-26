@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>site Animes</title>
 </head>
+
 <body>
 
     <header>
-        <a href="">ANIMES BR</a>
+        <!-- <img src="assets/giff-header.gif" alt="giff giff fundo" class="giff-fundo"> -->
+        <h1>YumeAnime</h1>
         <a href="">Página inicial</a>
         <a href="">Animes</a>
         <a href="">Filmes</a>
         <a href="">Categorias</a>
         <a href="">Temporada de outono 2025</a>
+        <div class="login">
+            <a class="registrar" href="">Registrar</a>
+            <a class="logar" href="">logar</a>
+        </div>
     </header>
-    
     <main>
+        <form class="container" action="/buscar" method="GET">
+            <input class="pesquisa" type="text" name="query" placeholder="  Digite sua pesquisa..." />
+            <button class="button" type="submit">Pesquisar</button>
+        </form>
+
+        <div class="conteudo">
+            <h2 class="text-anime">YumeAnime - melhor site para assistir animes online</h2>
+            <p class="text-anime-two">assistir animes em alta qualidade</p>
+        </div>
 
     </main>
 
 </body>
 <script src="./script.js"></script>
+
 </html>

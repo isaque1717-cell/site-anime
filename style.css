@@ -1,21 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Oswald, sans-serif;
 }
 
 body {
     background-color: #2c2d2a;
 }
 
+
 header {
     display: flex;
     justify-content: center;
+    font-weight: 700;
+    font-size: 15px;
     align-items: center;
-    background-color: #131212;
+    background-color: black;
     height: 100px;
     gap: 40px;
     color: #3f413d;
+}
+
+/* .giff-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100px ;
+} */
+a,
+h1 {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.login {
+    position: absolute;
+    right: 90px;
+    top: 37px;
+    gap: 20px;
+
+}
+
+.logar,
+.registrar {
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.logar:hover,
+.registrar:hover {
+    font-size: 20px;
+    border: red;
+    transition: 0.5s ease-in-out;
+
 }
 
 main {
@@ -25,5 +74,38 @@ main {
     margin: auto;
     width: 70vw;
     height: 100vh;
-    background-color: #131212;
 }
+
+.pesquisa {
+    position: absolute;
+    top: 130px;
+    right: 50%;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button {
+    position: absolute;
+    top: 130px;
+    width: 75px;
+    height: 35px;
+    right: 44.5%;
+    border: none;
+    border-radius: 10px;
+}
+
+.conteudo {
+    color: antiquewhite;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 150px;
+    top: 350px;
+    gap: 5px;
+
+}
+
+
+
